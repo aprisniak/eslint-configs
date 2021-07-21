@@ -1,5 +1,5 @@
 {
-  "name": "@aprisniak/eslint-nestjs",
+  "name": "@sotream/eslint-nestjs",
   "version": "0.0.1",
   "repository": "https://github.com/aprisniak/eslint-configs",
   "description": "ESLint configs for nestjs applications",
