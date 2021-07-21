@@ -1,6 +1,6 @@
 {
   "name": "@sotream/eslint-nestjs",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "main": "index.js",
   "repository": "https://github.com/aprisniak/eslint-configs",
   "description": "ESLint configs for nestjs applications",
