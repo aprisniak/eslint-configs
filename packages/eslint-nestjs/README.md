@@ -1,13 +1,27 @@
-## Установка
+# ESLint config file for NestJS projects
 
-С помощью `yarn`:
+## Installation
 
+With `yarn`:
+
+```bash
+yarn add @sotream/eslint-nestjs
 ```
-yarn add @aprisniak/eslint-nestjs
+
+With `npm`:
+
+```bash
+npm i -D @sotream/eslint-nestjs
 ```
 
-С помощью `npm`:
+## Usage
 
-```
-npm i -D @aprisniak/eslint-nestjs
+Create `.eslintrc` file:
+
+```json
+{
+  "extends": [
+    "@sotream/eslint-nestjs"
+  ]
+}
 ```
