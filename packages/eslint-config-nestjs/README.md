@@ -5,23 +5,26 @@
 With `yarn`:
 
 ```bash
-yarn add @sotream/eslint-nestjs
+yarn add -D @sotream/eslint-config-nestjs
 ```
 
 With `npm`:
 
 ```bash
-npm i -D @sotream/eslint-nestjs
+npm i -D @sotream/eslint-config-nestjs
 ```
 
 ## Usage
 
-Create `.eslintrc` file:
+Create `.eslintrc.js` file:
 
-```json
-{
+```js
+module.exports = {
   "extends": [
-    "@sotream/eslint-nestjs"
-  ]
+    "@sotream/eslint-config-nestjs"
+  ],
+  "rules": {
+      // overrides ...
+  }
 }
 ```
