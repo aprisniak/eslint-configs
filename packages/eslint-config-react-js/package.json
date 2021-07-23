@@ -1,0 +1,39 @@
+{
+  "name": "@sotream/eslint-config-react-js",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aprisniak/eslint-configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aprisniak/eslint-configs/issues"
+  },
+  "description": "ESLint configs for React JavaScript applications",
+  "author": {
+    "name": "Andrey Prisniak",
+    "email": "andrey.prisniak@gmail.com"
+  },
+  "private": false,
+  "keywords": [
+    "eslint",
+    "lectrum",
+    "eslintconfig",
+    "styleguide"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-import": "2.23.4",
+    "eslint-plugin-no-use-extend-native": "0.5.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "5.1.0",
+    "eslint-plugin-react": "7.24.0"
+  },
+  "devDependencies": {
+    "eslint": "7.31.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 7"
+  }
+}
