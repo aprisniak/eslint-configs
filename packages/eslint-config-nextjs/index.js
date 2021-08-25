@@ -22,7 +22,6 @@ module.exports = {
         "plugin:node/recommended",
         "plugin:react/recommended",
         "next",
-        "next/core-web-vitals",
         "prettier"
     ],
     "parser": "@typescript-eslint/parser",
