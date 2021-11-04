@@ -64,6 +64,7 @@ module.exports = {
         }
     },
     "rules": {
+        "no-void": "off",
         "react/display-name": "off",
         "react/prop-types": "off",
         "import/extensions": [
@@ -359,7 +360,7 @@ module.exports = {
         ],
         "id-length": 0,
         "implicit-arrow-linebreak": "warn",
-        "indent": "off",
+        "indent": ["error", 4, { "SwitchCase": 1 }],
         "key-spacing": [
             "error",
             {
